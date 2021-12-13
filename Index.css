@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Estonia&family=Roboto+Condensed:ital,wght@1,300&family=Shippori+Antique+B1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Estonia&family=Roboto+Condensed&family=Shippori+Antique+B1&display=swap');
 body {
-    background-color: white;
+    background-color: #363637;
 }
 *{
     margin: 0;
@@ -12,6 +12,8 @@ body {
 }
 nav{
     font-family: 'Shippori Antique B1', sans-serif;
+    border: 2px;
+    border-color: white;
 }
 nav ul {
     display: flex;
@@ -38,39 +40,121 @@ nav ul li {
     font-size: 1.3rem;
 }
 .container{
-    min-height: 75vh;
-    background-color: lightpink;
-    font-family: 'Shippori Antique B1', sans-serif;
-    display:flex;
-    width: 70%;
-    flex-direction: row;   
-    align-items: center;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 10px;
+    padding-right: 0%;
+    color: white;
+    border: 2px;
+    cursor: pointer;
+}
+.container img {
+    position:relative;
+    height: 200px;
+    width: 200px;
 }
 .container1 {
-    min-height: 75vh;
-    background-color: lightgrey;
-    font-family: 'Shippori Antique B1', sans-serif;
-    display:flex;
-    width: 70%;
-    flex-direction: row;
-    align-items: center;
+    height: 250px;
+    width:250px;
+    text-align: center;
+    justify-content:center;
+    position: relative;
+    padding-top: 1px;
+    padding-right: 0%;
+    left: 260px;
+    bottom: 250px;
+    border: 2px;
+    cursor: pointer;
+    color: white;
+}
+.container1 img {
+    position: relative;
+    height: 200px;
+    width: 200px;
 }
 .container2{
-    min-height: 75vh;
-    background-color: whitesmoke;
-    font-family: 'Shippori Antique B1', sans-serif;
-    display:flex;
-    width: 70%;
-    flex-direction: row;
-    align-items: center;
+    height: 250px;
+    width:250px;
+    text-align: center;
+    justify-content:center;
+    position: relative;
+    padding-top: 1px;
+    padding-right: 0%;
+    left: 520px;
+    bottom: 500px;
+    border: 2px;
+    cursor: pointer;
+    color: white;
+}
+.container2 img {
+    position: relative;
+    height: 200px;
+    width: 200px;
 }
 .container3 {
-    min-height: 75vh;
-    background-color: floralwhite;
-    display:flex;
-    width: 70%;
-    flex-direction: row;
-    align-items: center;
+   height: 200px;
+   width: 200px;
+   text-align: center;
+   justify-content: center;
+   position: relative;
+   padding-top: 1px;
+    padding-right: 0%;
+   left: 800px;
+   bottom: 750px;
+   border: 2px;
+   cursor: pointer;
+   color: white;
+}
+.container3 img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+.container4 {
+    height:200px;
+    width:200px;
+    background-color: bisque;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 1px;
+    padding-right: 0%;
+    left:1050px;
+    bottom: 950px;
+    border: 2px;
+    cursor: pointer;
+    color: white;
+}
+.container4 img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+.container5 {
+    height:200px;
+    width:200px;
+    background-color: cadetblue;
+    text-align:center;
+    justify-content: center;
+    position: relative;
+    padding-top: 1px;
+    padding-right: 0%;
+    left:1300px;
+    bottom: 1150px;
+    border: 2px;
+    cursor: pointer;
+    color: white;
+}
+.container5 img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+.songList {
+    font-family: 'Estonia', cursive;
 }
 .bottom {
     position: sticky;
